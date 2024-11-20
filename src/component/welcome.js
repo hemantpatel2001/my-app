@@ -1,4 +1,5 @@
 import React from "react";
+import { toast } from "react-toastify";
 
 const Welcome = () => {
   return (
@@ -15,7 +16,7 @@ const Welcome = () => {
           </p>
           <div className="mt-8 animate__animated animate__fadeIn animate__delay-3s">
             <button 
-              onClick={() => alert("Welcome to the app!")}
+              onClick={() => toast.success("welcome my app")}
               className="px-8 py-3 bg-gradient-to-r from-pink-500 to-yellow-500 text-white font-bold text-lg rounded-lg shadow-md transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
             >
               Let's Get Started
