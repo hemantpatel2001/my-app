@@ -1,9 +1,10 @@
 import Welcome from './component/welcome';
+import PageRoutes from './pageRoutes';
 
 function App() {
   return (
 <div className=''>
-<Welcome/>
+<PageRoutes/>
 </div>
 
   );
